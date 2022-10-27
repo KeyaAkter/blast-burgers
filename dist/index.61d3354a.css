@@ -275,6 +275,10 @@ img, video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-96 {
   height: 24rem;
 }
@@ -289,6 +293,10 @@ img, video {
 
 .w-full {
   width: 100%;
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -311,12 +319,20 @@ img, video {
   justify-content: space-between;
 }
 
+.justify-items-center {
+  justify-items: center;
+}
+
 .gap-5 {
   gap: 1.25rem;
 }
 
 .gap-2 {
   gap: .5rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .overflow-hidden {
@@ -378,6 +394,11 @@ img, video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-semibold {
